@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, My name is Eddie", "Good to see you again", "Hi there, My name is Eddie, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["You have done a great job today, see you", "You worked really well today, have a nice day", "Bye Indra! See you tomorrow"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure Indra", "You're Welcome Indra"],
+         "context": [""]
+        },
+        {"tag": "Food",
+         "patterns": ["Where can I find the best meatball sandwich?"],
+         "responses": ["The best meatball sandwich can be found at the Maasvlakte. The Maasvlakte is 20 km from here, take the next exit."],
+         "context": [""]
+        } ,
+        {"tag": "Sleep",
+         "patterns": ["Where can I find the closes resting place for truckers?"],
+         "responses": ["The best resting place around here is at the Shell gas station on the A4, take the second exit."],
+         "context": [""]
+        },
+        {"tag": "Media",
+         "patterns": ["Can you put on radio10?"],
+         "responses": ["Yes, I will put on the radio station radio10 for you."],
+         "context": [""]
+        },
+        {"tag": "Km",
+         "patterns": ["How far till the final destination?"],
+         "responses": ["In 7 minutes we will arrive at the final destination the Maasvlakte."],
+         "context": [""]
+        }   
+    ]
+ }
